@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffe9fb; background: -moz-linear-gradient(45deg,  #ffe9fb 0%,#e4fef6 100%); background: -webkit-linear-gradient(45deg,  #ffe9fb 0%,#e4fef6 100%); background: linear-gradient(45deg,  #ffe9fb 0%,#e4fef6 100%);
+}
+form{
+    width: 300px;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px #b2c3dd;
+    background: #f3f6fd; background: -moz-linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%); background: -webkit-linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%); background: linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%);
+}
+h3{
+    text-align: center;
+    padding: 7px 10px 12px;
+    font-size: 26px;
+}
+input[name=display]{
+        width: 98%;
+        border: none;
+        height: 40px;
+        border-radius: 2px;
+        text-align: right;
+        background: #e1e8f4;
+        font-size: 35px;
+        margin-bottom: 8px;
+        font-family: monospace;
+}
+input[type=button]{
+    width: calc(100% /4 - 3.5px);
+    height: 50px;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 2px 0;
+    border: none;
+    background: white;
+    box-shadow: 0px 0px 5px #c3c3c3;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+input[type=button]:hover{
+    background: #f3f6fd; background: -moz-linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%); background: -webkit-linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%); background: linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%);
+}
+input[type=button]:nth-last-of-type(1){
+    width: calc(50% - 3px);
+    background: #f3f6fd; background: -moz-linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%); background: -webkit-linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%); background: linear-gradient(-121deg,  #f3f6fd 0%,#b2c3dd 50%,#f3f6fd 100%);
+}
